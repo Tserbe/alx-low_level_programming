@@ -1,0 +1,92 @@
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;39r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[39;1H"2-strncat.c" 25L, 311C[1;1H[35m#include [m[31m"main.h"[m
+
+[34m/**
+  * _strncpy - main entry
+  * @dest: destination
+  * @src: source
+  * @n: parameter
+  * Return: returns des
+  */[m
+[32mchar[m *_strncpy([32mchar[m *dest, [32mchar[m *src, [32mint[m n)
+{
+[32mint[m a = [31m0[m;
+
+[38;5;130mwhile[m (a < n && src[a] != [35m'\0'[m)
+{
+dest[a] = src[a];
+a++;
+}
+[38;5;130mwhile[m  (a < n)
+{
+dest[a] = [35m'\0'[m;
+a++;
+}
+[38;5;130mreturn[m (dest);
+}
+[94m~                                                                                   [27;1H~                                                                                   [28;1H~                                                                                   [29;1H~                                                                                   [30;1H~                                                                                   [31;1H~                                                                                   [32;1H~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [m[39;67H4,13[10CAll[4;13H[?25h[?25l[39;1H[1m-- INSERT --[m[39;13H[K[39;67H4,13[10CAll[4;13H[34mtrncpy.c- main entry[m[39;69H21[4;21H[?25h[?25l[34m- main entry[m[4;32H[K[39;70H0[4;20H[?25h[?25l[5;38r[5;1H[L[1;39r[4;19H[31m.2[m[34m-[m[4;22H[K[5;1H[34m  * strncpy.c- main entry[m[39;67H[K[39;67H5,14[10CAll[5;14H[?25h[?25l[6;38r[6;1H[L[1;39r[5;14H[34m2-[m[5;16H[K[6;1H[34m  * strncpy.c- main entry[m[39;67H[K[39;67H6,14[10CAll[6;14H[?25h[?25l[7;38r[7;1H[L[1;39r[6;14H[K[7;1H[34m  * - main entry[m[39;67H[K[39;67H7,5[11CAll[7;5H[?25h[39;1H[K[7;3H[?25l[39;57H^[[7;3H[39;57H  [7;5H[39;67H7,4[11CAll[7;4H[?25h[27m[23m[29m[m[H[2J[?25l[1;1H[35m#include [m[31m"main.h"[m
+
+[34m/**
+  * _strncpytrncpy[m[31m.2[m[34m-
+  * strncpy.c2-
+  * strncpy.c
+  * - main entry
+  * @dest: destination
+  * @src: source
+  * @n: parameter
+  * Return: returns des
+  */[m
+[32mchar[m *_strncpy([32mchar[m *dest, [32mchar[m *src, [32mint[m n)
+{
+[32mint[m a = [31m0[m;
+
+[38;5;130mwhile[m (a < n && src[a] != [35m'\0'[m)
+{
+dest[a] = src[a];
+a++;
+}
+[38;5;130mwhile[m  (a < n)
+{
+dest[a] = [35m'\0'[m;
+a++;
+}
+[38;5;130mreturn[m (dest);
+}
+[94m~                                                                                                                                                             [30;1H~                                                                                                                                                             [31;1H~                                                                                                                                                             [32;1H~                                                                                                                                                             [33;1H~                                                                                                                                                             [34;1H~                                                                                                                                                             [35;1H~                                                                                                                                                             [36;1H~                                                                                                                                                             [37;1H~                                                                                                                                                             [38;1H~                                                                                                                                                             [39;1H~                                                                                                                                                             [m[40;141H7,4[11CAll[7;4H[?25h[?25l[40;131H[B[7;4H[40;131H  [7;4H[?25h[?25l[40;131H[C[7;4H[40;131H  [7;4H[?25h[?25l[40;131Hq[7;4H[?25h[?25l[40;132H^[[7;4H[40;132H  [7;4H[40;132H^[[7;4H[40;131H   [7;4H[?25h[?25l[40;131Hn[7;4H[40;1H[97m[41mE35: No previous regular expression[m[40;131H[K[7;4H[40;141H7,4[11CAll[7;4H[?25h[?25l[40;131Hm[7;4H[?25h[?25l[40;132Hn[7;4H[40;131H  [7;4H[?25h[?25l[40;1H[1m-- VISUAL --[m[40;13H[K[40;141H7,4[11CAll[7;4H[?25h[?25l[40;131H,[7;4H[40;131H1[7;4H[?25h[?25l[40;131H^M[7;4H[40;131H2 [8;3H[7;4H[34m[47m - main entry[m[47m [m
+[34m[47m  [m[40;141H8,3[8;3H[?25h[?25l[40;131H [8;3H[7;4H[34m - main entry[m[7;17H[K[8;1H[34m  [m[40;1H[K[40;141H8,3[11CAll[8;3H[?25h[?25l[40;131H.[8;3H[40;131H [8;3H[40;1H[1m-- INSERT --[m[40;141H[K[40;141H8,3[11CAll[40;1H[K[9;39r[9;1H[3L[1;40r[8;3H[34mtrncpy[m[31m.2[m[34m-[m[8;12H[K[9;1H[34m strncpy.c2-
+strncpy.c
+@dest: destination[m[40;141H11,1[10CAll[11;1H[?25h[?25l[40;131H<20>[11;1H[40;131H    [11;2H[40;144H2[11;2H[?25h[?25l[40;131Hm[11;2H[?25h[?25l[40;132Hn[11;2H[40;131H  [11;2H[?25h[?25l[40;131Hb[11;2H[40;131H [11;1H[40;144H1[11;1H[?25h[?25l[40;131Hv[11;1H[40;131H1[11;1H[40;1H[1m-- VISUAL --[m[40;131H[K[40;131H1[11;1H[40;141H11,1[10CAll[11;1H[?25h[?25l[40;131Hc[11;1H[40;131H [11;1H[40;4H[1mINSERT [m[40;141H[K[40;141H11,1[10CAll[11;1H[34mdest: destination[m[11;18H[K[11;1H[?25h[?25l[34mgdest: destination[m[40;144H2[11;2H[?25h[?25l[34mbdest: destination[m[40;144H3[11;3H[?25h[?25l[34m,dest: destination[m[40;144H4[11;4H[?25h[?25l[34mndest: destination[m[40;144H5[11;5H[?25h[?25l[34mmdest: destination[m[40;144H6[11;6H[?25h[?25l[34mldest: destination[m[40;144H7[11;7H[?25h[?25l[34m,dest: destination[m[40;144H8[11;8H[?25h[?25l[34m.dest: destination[m[40;144H9[11;9H[?25h[?25l[34m/dest: destination[m[40;144H10[11;10H[?25h[?25l[34m?dest: destination[m[40;145H1[11;11H[?25h[?25l[34m?dest: destination[m[40;145H2[11;12H[?25h[?25l[40;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[m[40;141H[K[11;12H[?25h[?25l[40;4H[1mINSERTe --^[m[40;13H[K[40;141H11,12[9CAll[40;1H[K[40;141H11,11[9CAll[11;11H[?25h[?25l[40;131H^A[11;11H[40;131H  [11;11H[?25h[?25l[40;131H^Z[11;11H[40;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?12h[?12l[27m[23m[29m[m[H[2J[?25l[1;1H[35m#include [m[31m"main.h"[m
+
+[34m/**
+  * _strncpytrncpy[m[31m.2[m[34m-
+  * strncpy.c2-
+  * strncpy.c
+  * - main entry
+  trncpy[m[31m.2[m[34m-
+ strncpy.c2-
+strncpy.c
+gb,nml,./??dest: destination
+  * @src: source
+  * @n: parameter
+  * Return: returns des
+  */[m
+[32mchar[m *_strncpy([32mchar[m *dest, [32mchar[m *src, [32mint[m n)
+{
+[32mint[m a = [31m0[m;
+
+[38;5;130mwhile[m (a < n && src[a] != [35m'\0'[m)
+{
+dest[a] = src[a];
+a++;
+}
+[38;5;130mwhile[m  (a < n)
+{
+dest[a] = [35m'\0'[m;
+a++;
+}
+[38;5;130mreturn[m (dest);
+}
+[94m~                                                                                   [33;1H~                                                                                   [34;1H~                                                                                   [35;1H~                                                                                   [36;1H~                                                                                   [37;1H~                                                                                   [38;1H~                                                                                   [m[39;67H11,11[9CAll[11;11H[?25h[?25l[?25h[39;1H[?2004l[?1l>[>4;m[?1049l[23;0;0tVim: Caught deadly signal HUP
+Vim: preserving files...
+Vim: Finished.
+[39;1H[23;2t[23;1t
